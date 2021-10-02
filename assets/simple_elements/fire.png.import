@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/fire.png-fe69fe6178abd9b526a56aa50a90f42b.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/simple_elements/fire.png"
+dest_files=[ "res://.import/fire.png-fe69fe6178abd9b526a56aa50a90f42b.stex" ]
+
 [params]
 
 compress/mode=0

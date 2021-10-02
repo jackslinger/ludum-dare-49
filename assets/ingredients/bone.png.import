@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/bone.png-5b4661a985b27691e67e45fdb155ff36.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/ingredients/bone.png"
+dest_files=[ "res://.import/bone.png-5b4661a985b27691e67e45fdb155ff36.stex" ]
+
 [params]
 
 compress/mode=0

@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/earth.png-79b94cb5c79733704a093ea5b4c856e8.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/simple_elements/earth.png"
+dest_files=[ "res://.import/earth.png-79b94cb5c79733704a093ea5b4c856e8.stex" ]
+
 [params]
 
 compress/mode=0

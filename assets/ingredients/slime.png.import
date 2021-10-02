@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/slime.png-9cd4ecd040f8d354f76511b108bc0ec7.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/ingredients/slime.png"
+dest_files=[ "res://.import/slime.png-9cd4ecd040f8d354f76511b108bc0ec7.stex" ]
+
 [params]
 
 compress/mode=0

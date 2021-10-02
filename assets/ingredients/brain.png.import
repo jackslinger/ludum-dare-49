@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/brain.png-963572b8d62eaca071a7edd06557ea4c.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/ingredients/brain.png"
+dest_files=[ "res://.import/brain.png-963572b8d62eaca071a7edd06557ea4c.stex" ]
+
 [params]
 
 compress/mode=0

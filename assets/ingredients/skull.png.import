@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/skull.png-042134e58c261ee0797a14dee8bab696.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/ingredients/skull.png"
+dest_files=[ "res://.import/skull.png-042134e58c261ee0797a14dee8bab696.stex" ]
+
 [params]
 
 compress/mode=0

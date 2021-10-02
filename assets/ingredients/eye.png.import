@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/eye.png-39df3552a2e4800a3345f6c2dee4513a.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/ingredients/eye.png"
+dest_files=[ "res://.import/eye.png-39df3552a2e4800a3345f6c2dee4513a.stex" ]
+
 [params]
 
 compress/mode=0

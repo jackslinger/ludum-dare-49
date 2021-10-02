@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/cobweb.png-5199ba5aa146b8629ff863a27b9103f7.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/ingredients/cobweb.png"
+dest_files=[ "res://.import/cobweb.png-5199ba5aa146b8629ff863a27b9103f7.stex" ]
+
 [params]
 
 compress/mode=0
