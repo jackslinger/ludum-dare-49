@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/73_Centipede.png-3b0d679a8b054f3b022a59735f4259c3.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/73_Centipede.png"
-dest_files=[ "res://.import/73_Centipede.png-3b0d679a8b054f3b022a59735f4259c3.stex" ]
-
 [params]
 
 compress/mode=0

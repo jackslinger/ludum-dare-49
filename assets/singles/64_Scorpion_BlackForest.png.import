@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/64_Scorpion_BlackForest.png-8ffb9f079804cd9f6e1dbb73d5086c91.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/64_Scorpion_BlackForest.png"
-dest_files=[ "res://.import/64_Scorpion_BlackForest.png-8ffb9f079804cd9f6e1dbb73d5086c91.stex" ]
-
 [params]
 
 compress/mode=0

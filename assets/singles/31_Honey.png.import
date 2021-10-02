@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/31_Honey.png-4ac746222da7a72300c2b35feef59d0e.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/31_Honey.png"
-dest_files=[ "res://.import/31_Honey.png-4ac746222da7a72300c2b35feef59d0e.stex" ]
-
 [params]
 
 compress/mode=0

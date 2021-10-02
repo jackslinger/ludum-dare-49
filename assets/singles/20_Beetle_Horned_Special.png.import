@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/20_Beetle_Horned_Special.png-5b56b800e67c22eb783cc9b4c4acd2b7.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/20_Beetle_Horned_Special.png"
-dest_files=[ "res://.import/20_Beetle_Horned_Special.png-5b56b800e67c22eb783cc9b4c4acd2b7.stex" ]
-
 [params]
 
 compress/mode=0

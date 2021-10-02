@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/91_PrayingMantis_Special.png-8477635b1f4844906f5881a80a4aa4c0.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/91_PrayingMantis_Special.png"
-dest_files=[ "res://.import/91_PrayingMantis_Special.png-8477635b1f4844906f5881a80a4aa4c0.stex" ]
-
 [params]
 
 compress/mode=0

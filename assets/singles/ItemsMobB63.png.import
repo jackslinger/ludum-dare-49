@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ItemsMobB63.png-0f7adcf584b961ac7c967820e5e14703.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/ItemsMobB63.png"
-dest_files=[ "res://.import/ItemsMobB63.png-0f7adcf584b961ac7c967820e5e14703.stex" ]
-
 [params]
 
 compress/mode=0

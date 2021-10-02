@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/69_Scorpion_Red_VenomBulb.png-e40ba084ce642cd463f19d53179db8f7.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/69_Scorpion_Red_VenomBulb.png"
-dest_files=[ "res://.import/69_Scorpion_Red_VenomBulb.png-e40ba084ce642cd463f19d53179db8f7.stex" ]
-
 [params]
 
 compress/mode=0

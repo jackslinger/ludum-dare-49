@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/43_Caterpillar.png-52c47cf1e248caa16cdaaf53e038d65a.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/43_Caterpillar.png"
-dest_files=[ "res://.import/43_Caterpillar.png-52c47cf1e248caa16cdaaf53e038d65a.stex" ]
-
 [params]
 
 compress/mode=0

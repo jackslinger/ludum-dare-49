@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/07_Maggot.png-9131b339195d156f978565cbe98608fe.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/07_Maggot.png"
-dest_files=[ "res://.import/07_Maggot.png-9131b339195d156f978565cbe98608fe.stex" ]
-
 [params]
 
 compress/mode=0

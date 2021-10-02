@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/teeth.png-28077270352d03f681509aef40ea5e35.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/ingredients/teeth.png"
-dest_files=[ "res://.import/teeth.png-28077270352d03f681509aef40ea5e35.stex" ]
-
 [params]
 
 compress/mode=0

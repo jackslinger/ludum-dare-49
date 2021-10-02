@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/83_Spider_Occult.png-ea364eca6eb7cc1735674511705f7fe6.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/83_Spider_Occult.png"
-dest_files=[ "res://.import/83_Spider_Occult.png-ea364eca6eb7cc1735674511705f7fe6.stex" ]
-
 [params]
 
 compress/mode=0

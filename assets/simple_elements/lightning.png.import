@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/lightning.png-93b4fb322c44bf5e0b62578bc5c912ed.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/simple_elements/lightning.png"
-dest_files=[ "res://.import/lightning.png-93b4fb322c44bf5e0b62578bc5c912ed.stex" ]
-
 [params]
 
 compress/mode=0

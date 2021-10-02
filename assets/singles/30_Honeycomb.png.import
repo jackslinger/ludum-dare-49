@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/30_Honeycomb.png-2b6f631babcc4c4a56d36ed9407cb55f.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/30_Honeycomb.png"
-dest_files=[ "res://.import/30_Honeycomb.png-2b6f631babcc4c4a56d36ed9407cb55f.stex" ]
-
 [params]
 
 compress/mode=0

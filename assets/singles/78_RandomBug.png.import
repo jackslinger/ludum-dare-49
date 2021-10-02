@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/78_RandomBug.png-287fddbedb1970ff348ef22d31243ee1.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/78_RandomBug.png"
-dest_files=[ "res://.import/78_RandomBug.png-287fddbedb1970ff348ef22d31243ee1.stex" ]
-
 [params]
 
 compress/mode=0

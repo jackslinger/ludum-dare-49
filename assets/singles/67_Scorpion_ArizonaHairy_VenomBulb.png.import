@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/67_Scorpion_ArizonaHairy_VenomBulb.png-68c116c1dab4da3a6d923f6fdf91a5af.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/67_Scorpion_ArizonaHairy_VenomBulb.png"
-dest_files=[ "res://.import/67_Scorpion_ArizonaHairy_VenomBulb.png-68c116c1dab4da3a6d923f6fdf91a5af.stex" ]
-
 [params]
 
 compress/mode=0

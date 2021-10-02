@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/40_Dragonfly_Special.png-798e5ab30207f80da07ed175c4106a23.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/40_Dragonfly_Special.png"
-dest_files=[ "res://.import/40_Dragonfly_Special.png-798e5ab30207f80da07ed175c4106a23.stex" ]
-
 [params]
 
 compress/mode=0

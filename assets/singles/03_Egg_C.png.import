@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/03_Egg_C.png-c30253f6b7e60ef62d2d3b6adec98322.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/03_Egg_C.png"
-dest_files=[ "res://.import/03_Egg_C.png-c30253f6b7e60ef62d2d3b6adec98322.stex" ]
-
 [params]
 
 compress/mode=0

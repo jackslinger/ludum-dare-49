@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/beak.png-0d9c6e571e28ddc29f33518fd8855d84.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/ingredients/beak.png"
-dest_files=[ "res://.import/beak.png-0d9c6e571e28ddc29f33518fd8855d84.stex" ]
-
 [params]
 
 compress/mode=0

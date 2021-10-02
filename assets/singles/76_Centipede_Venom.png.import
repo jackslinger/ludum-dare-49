@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/76_Centipede_Venom.png-5c74c50806786e70f2dbc7368941e6be.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/76_Centipede_Venom.png"
-dest_files=[ "res://.import/76_Centipede_Venom.png-5c74c50806786e70f2dbc7368941e6be.stex" ]
-
 [params]
 
 compress/mode=0

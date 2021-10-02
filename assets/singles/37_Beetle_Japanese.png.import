@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/37_Beetle_Japanese.png-5e5482703fc9cdd7a2f84a4a3ad6bd13.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/37_Beetle_Japanese.png"
-dest_files=[ "res://.import/37_Beetle_Japanese.png-5e5482703fc9cdd7a2f84a4a3ad6bd13.stex" ]
-
 [params]
 
 compress/mode=0

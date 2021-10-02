@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ant.png-6296029e9427bd058d12f50d2c550171.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/ingredients/ant.png"
-dest_files=[ "res://.import/ant.png-6296029e9427bd058d12f50d2c550171.stex" ]
-
 [params]
 
 compress/mode=0

@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/28_Bee_KeeperHat_Advanced.png-dc64433d7adee104f4a15e22b8be2c4c.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/28_Bee_KeeperHat_Advanced.png"
-dest_files=[ "res://.import/28_Bee_KeeperHat_Advanced.png-dc64433d7adee104f4a15e22b8be2c4c.stex" ]
-
 [params]
 
 compress/mode=0

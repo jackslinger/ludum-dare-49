@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/cloud.png-c173c3dfd9faa13aa7ebd7b5aca2f26f.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/simple_elements/cloud.png"
-dest_files=[ "res://.import/cloud.png-c173c3dfd9faa13aa7ebd7b5aca2f26f.stex" ]
-
 [params]
 
 compress/mode=0

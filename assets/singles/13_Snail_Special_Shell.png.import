@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/13_Snail_Special_Shell.png-c833b708230b1077d84689a51523c020.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/13_Snail_Special_Shell.png"
-dest_files=[ "res://.import/13_Snail_Special_Shell.png-c833b708230b1077d84689a51523c020.stex" ]
-
 [params]
 
 compress/mode=0

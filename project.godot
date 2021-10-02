@@ -14,14 +14,15 @@ config/name="Witches Cauldron"
 run/main_scene="res://scenes/Main.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+GlobalIngredients="*res://scripts/GlobalIngredients.gd"
+
 [importer_defaults]
 
 texture={
 "flags/filter": false
 }
-[autoload]
-
-GlobalIngredients="*res://scripts/GlobalIngredients.gd"
 
 [physics]
 

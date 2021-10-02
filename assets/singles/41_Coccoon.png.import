@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/41_Coccoon.png-d37c967d0a830bed06e996604808454f.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/41_Coccoon.png"
-dest_files=[ "res://.import/41_Coccoon.png-d37c967d0a830bed06e996604808454f.stex" ]
-
 [params]
 
 compress/mode=0

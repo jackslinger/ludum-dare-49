@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/47_Butterfly_Pink.png-baf79b6dc373c4a5ca247e280c3bb445.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/47_Butterfly_Pink.png"
-dest_files=[ "res://.import/47_Butterfly_Pink.png-baf79b6dc373c4a5ca247e280c3bb445.stex" ]
-
 [params]
 
 compress/mode=0

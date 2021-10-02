@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/air.png-f8201749795ab0b45088b6197d6a341e.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/simple_elements/air.png"
-dest_files=[ "res://.import/air.png-f8201749795ab0b45088b6197d6a341e.stex" ]
-
 [params]
 
 compress/mode=0

@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/05_Worm.png-d0826ffb1b4f229edda6d9f3539554ef.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/05_Worm.png"
-dest_files=[ "res://.import/05_Worm.png-d0826ffb1b4f229edda6d9f3539554ef.stex" ]
-
 [params]
 
 compress/mode=0

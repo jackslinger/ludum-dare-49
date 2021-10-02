@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/clover.png-1f6c9866c635f6db4ce559a535aba2f6.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/ingredients/clover.png"
-dest_files=[ "res://.import/clover.png-1f6c9866c635f6db4ce559a535aba2f6.stex" ]
-
 [params]
 
 compress/mode=0

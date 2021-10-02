@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/light.png-a613d2717ff6ea655492c8d957e3f4b3.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/simple_elements/light.png"
-dest_files=[ "res://.import/light.png-a613d2717ff6ea655492c8d957e3f4b3.stex" ]
-
 [params]
 
 compress/mode=0

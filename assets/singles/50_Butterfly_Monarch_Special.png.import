@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/50_Butterfly_Monarch_Special.png-5a374150901012c82cc9a98c0db9b533.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/50_Butterfly_Monarch_Special.png"
-dest_files=[ "res://.import/50_Butterfly_Monarch_Special.png-5a374150901012c82cc9a98c0db9b533.stex" ]
-
 [params]
 
 compress/mode=0

@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/21_Wasp.png-0ebdd2ff17f3f1909fd28270a72cf99a.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/21_Wasp.png"
-dest_files=[ "res://.import/21_Wasp.png-0ebdd2ff17f3f1909fd28270a72cf99a.stex" ]
-
 [params]
 
 compress/mode=0

@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/red_admiral.png-445efe5f771c5eeaf8ef651f388ce2ee.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/ingredients/red_admiral.png"
-dest_files=[ "res://.import/red_admiral.png-445efe5f771c5eeaf8ef651f388ce2ee.stex" ]
-
 [params]
 
 compress/mode=0

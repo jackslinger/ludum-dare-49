@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/86_Spider_Toxin.png-f616c14b374041b71226c2ee0b76d54d.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/86_Spider_Toxin.png"
-dest_files=[ "res://.import/86_Spider_Toxin.png-f616c14b374041b71226c2ee0b76d54d.stex" ]
-
 [params]
 
 compress/mode=0

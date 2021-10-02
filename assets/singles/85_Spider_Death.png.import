@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/85_Spider_Death.png-e7a8648eaa9aaa3efb99014fd50b716d.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/85_Spider_Death.png"
-dest_files=[ "res://.import/85_Spider_Death.png-e7a8648eaa9aaa3efb99014fd50b716d.stex" ]
-
 [params]
 
 compress/mode=0

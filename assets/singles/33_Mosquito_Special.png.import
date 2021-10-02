@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/33_Mosquito_Special.png-de30c70b08113a5395ef103ff3671760.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/33_Mosquito_Special.png"
-dest_files=[ "res://.import/33_Mosquito_Special.png-de30c70b08113a5395ef103ff3671760.stex" ]
-
 [params]
 
 compress/mode=0

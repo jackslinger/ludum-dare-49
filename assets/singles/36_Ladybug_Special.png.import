@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/36_Ladybug_Special.png-1569a73f783e1b3a3442a9ac71930699.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/36_Ladybug_Special.png"
-dest_files=[ "res://.import/36_Ladybug_Special.png-1569a73f783e1b3a3442a9ac71930699.stex" ]
-
 [params]
 
 compress/mode=0

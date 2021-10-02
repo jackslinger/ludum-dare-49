@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/water.png-03cc1e0730ebddeb78b6f25839e9ba82.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/simple_elements/water.png"
-dest_files=[ "res://.import/water.png-03cc1e0730ebddeb78b6f25839e9ba82.stex" ]
-
 [params]
 
 compress/mode=0

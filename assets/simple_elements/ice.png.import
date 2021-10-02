@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ice.png-a7c9b66d916ce5ae252ef3b155c6d8bb.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/simple_elements/ice.png"
-dest_files=[ "res://.import/ice.png-a7c9b66d916ce5ae252ef3b155c6d8bb.stex" ]
-
 [params]
 
 compress/mode=0

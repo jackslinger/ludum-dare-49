@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/10_Slug_Special.png-966635995ecde545a2da8518f9051435.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/10_Slug_Special.png"
-dest_files=[ "res://.import/10_Slug_Special.png-966635995ecde545a2da8518f9051435.stex" ]
-
 [params]
 
 compress/mode=0

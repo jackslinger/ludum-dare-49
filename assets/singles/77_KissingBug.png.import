@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/77_KissingBug.png-664f1b0983626f86fc28d11ba941e0d9.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/77_KissingBug.png"
-dest_files=[ "res://.import/77_KissingBug.png-664f1b0983626f86fc28d11ba941e0d9.stex" ]
-
 [params]
 
 compress/mode=0

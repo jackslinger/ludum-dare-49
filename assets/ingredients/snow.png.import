@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/snow.png-c5e3380c2772c0a4eda3d53e68d23221.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/ingredients/snow.png"
-dest_files=[ "res://.import/snow.png-c5e3380c2772c0a4eda3d53e68d23221.stex" ]
-
 [params]
 
 compress/mode=0

@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/52_Butterfly_RedAdmiral_Special.png-66304ff9260848c2ff04d1ba52676dc9.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/52_Butterfly_RedAdmiral_Special.png"
-dest_files=[ "res://.import/52_Butterfly_RedAdmiral_Special.png-66304ff9260848c2ff04d1ba52676dc9.stex" ]
-
 [params]
 
 compress/mode=0

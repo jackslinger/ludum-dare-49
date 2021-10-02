@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/84_Spider_Earth.png-82260b117025e91ed76c59e8a65350cf.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/84_Spider_Earth.png"
-dest_files=[ "res://.import/84_Spider_Earth.png-82260b117025e91ed76c59e8a65350cf.stex" ]
-
 [params]
 
 compress/mode=0

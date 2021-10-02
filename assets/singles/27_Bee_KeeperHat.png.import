@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/27_Bee_KeeperHat.png-36da13d31992bcc0b2f982d0c2d2b561.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/27_Bee_KeeperHat.png"
-dest_files=[ "res://.import/27_Bee_KeeperHat.png-36da13d31992bcc0b2f982d0c2d2b561.stex" ]
-
 [params]
 
 compress/mode=0

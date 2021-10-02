@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/18_Termite_Special.png-820743aa6cbbc997c784d61755905b99.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/18_Termite_Special.png"
-dest_files=[ "res://.import/18_Termite_Special.png-820743aa6cbbc997c784d61755905b99.stex" ]
-
 [params]
 
 compress/mode=0

@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/fire_ant.png-1cc608e689e6e3208ffa2540ea63b0e1.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/ingredients/fire_ant.png"
-dest_files=[ "res://.import/fire_ant.png-1cc608e689e6e3208ffa2540ea63b0e1.stex" ]
-
 [params]
 
 compress/mode=0

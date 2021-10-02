@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/71_Scorpion_Emperor_VenomBulb.png-66e929cd9ff957601aad15c33fa6d242.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/71_Scorpion_Emperor_VenomBulb.png"
-dest_files=[ "res://.import/71_Scorpion_Emperor_VenomBulb.png-66e929cd9ff957601aad15c33fa6d242.stex" ]
-
 [params]
 
 compress/mode=0

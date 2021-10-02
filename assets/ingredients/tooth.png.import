@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tooth.png-3e5ff4cff21c227ba4439bfc037dd5f0.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/ingredients/tooth.png"
-dest_files=[ "res://.import/tooth.png-3e5ff4cff21c227ba4439bfc037dd5f0.stex" ]
-
 [params]
 
 compress/mode=0

@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/60_Grasshopper_Special.png-c3bc8ba90964948bcfb6abdeb310c821.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/60_Grasshopper_Special.png"
-dest_files=[ "res://.import/60_Grasshopper_Special.png-c3bc8ba90964948bcfb6abdeb310c821.stex" ]
-
 [params]
 
 compress/mode=0

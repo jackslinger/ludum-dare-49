@@ -1,0 +1,39 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://assets/green_icon.png" type="Texture" id=1]
+[ext_resource path="res://assets/red_icon.png" type="Texture" id=2]
+[ext_resource path="res://scripts/Failures.gd" type="Script" id=3]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 1 ) ],
+"loop": true,
+"name": "green",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 2 ) ],
+"loop": true,
+"name": "red",
+"speed": 5.0
+} ]
+
+[node name="Failures" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="First" type="AnimatedSprite" parent="."]
+position = Vector2( 40, 40 )
+scale = Vector2( 0.5, 0.5 )
+frames = SubResource( 1 )
+animation = "green"
+
+[node name="Second" type="AnimatedSprite" parent="."]
+position = Vector2( 120, 40 )
+scale = Vector2( 0.5, 0.5 )
+frames = SubResource( 1 )
+animation = "green"
+
+[node name="Third" type="AnimatedSprite" parent="."]
+position = Vector2( 200, 40 )
+scale = Vector2( 0.5, 0.5 )
+frames = SubResource( 1 )
+animation = "green"

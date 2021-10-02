@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/25_Bee_Drone_Special.png-44193e4c3a46164421e8c99600199d82.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/25_Bee_Drone_Special.png"
-dest_files=[ "res://.import/25_Bee_Drone_Special.png-44193e4c3a46164421e8c99600199d82.stex" ]
-
 [params]
 
 compress/mode=0

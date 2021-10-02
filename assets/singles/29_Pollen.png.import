@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/29_Pollen.png-49cac61c623a69b10829b4248b7873ac.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/29_Pollen.png"
-dest_files=[ "res://.import/29_Pollen.png-49cac61c623a69b10829b4248b7873ac.stex" ]
-
 [params]
 
 compress/mode=0

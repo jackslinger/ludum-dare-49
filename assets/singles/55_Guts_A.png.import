@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/55_Guts_A.png-069618b55a356d641ac63b3568e91e8c.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/55_Guts_A.png"
-dest_files=[ "res://.import/55_Guts_A.png-069618b55a356d641ac63b3568e91e8c.stex" ]
-
 [params]
 
 compress/mode=0

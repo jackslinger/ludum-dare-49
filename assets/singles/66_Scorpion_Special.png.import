@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/66_Scorpion_Special.png-869be6d799bb1f2712caa3c3f47363db.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/66_Scorpion_Special.png"
-dest_files=[ "res://.import/66_Scorpion_Special.png-869be6d799bb1f2712caa3c3f47363db.stex" ]
-
 [params]
 
 compress/mode=0

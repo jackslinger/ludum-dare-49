@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/45_Caterpillar_Exotic.png-dff7faedb59e18078f58051b2070d2bd.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/45_Caterpillar_Exotic.png"
-dest_files=[ "res://.import/45_Caterpillar_Exotic.png-dff7faedb59e18078f58051b2070d2bd.stex" ]
-
 [params]
 
 compress/mode=0

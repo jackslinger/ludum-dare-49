@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/81_Spider_Vitality.png-e84e5a1b6777f15d964549328b1978e8.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://assets/singles/81_Spider_Vitality.png"
-dest_files=[ "res://.import/81_Spider_Vitality.png-e84e5a1b6777f15d964549328b1978e8.stex" ]
-
 [params]
 
 compress/mode=0
