@@ -1,3 +1,4 @@
+tool
 extends Node
 
 var ingredients = [
@@ -121,3 +122,8 @@ var ingredients = [
 		"score": 10
 	},
 ]
+
+func get_ingredient(name):
+	for ingredient in ingredients:
+		if ingredient["name"] == name:
+			return ingredient
