@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/bar-background.jpg-19a6ead0023924d8f930a7cd9b95cac2.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://icon.png"
+source_file="res://assets/bar-background.jpg"
+dest_files=[ "res://.import/bar-background.jpg-19a6ead0023924d8f930a7cd9b95cac2.stex" ]
+
 [params]
 
 compress/mode=0

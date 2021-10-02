@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/bubbles-bar.jpg-ca2095319948e47c96713eedd422b75f.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://icon.png"
+source_file="res://assets/bubbles-bar.jpg"
+dest_files=[ "res://.import/bubbles-bar.jpg-ca2095319948e47c96713eedd422b75f.stex" ]
+
 [params]
 
 compress/mode=0
