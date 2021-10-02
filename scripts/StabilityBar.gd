@@ -1,5 +1,7 @@
 extends Node2D
 
+signal boil_over
+
 var stability_threshold
 
 func _ready():
@@ -11,6 +13,8 @@ func roll_stability():
 	var rolled_value = rand_range(1, 100)
 	yield(animate_value(rolled_value), "completed")
 	yield(animate_value(0), "completed")
+	if rolled_value > stability_threshold:
+		emit_signal("boil_over")
 
 func change_stability_threshold(delta):
 	stability_threshold += delta
