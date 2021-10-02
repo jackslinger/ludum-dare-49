@@ -62,4 +62,5 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[connection signal="boil_over" from="StabilityBar" to="Failures" method="mark_failure"]
 [connection signal="button_down" from="Button" to="." method="_on_add_ingredient"]
