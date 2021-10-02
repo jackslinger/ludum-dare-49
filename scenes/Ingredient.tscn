@@ -1,0 +1,64 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.92549, 0.921569, 0.760784, 1 )
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -0.561218
+margin_bottom = -0.561218
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Background" type="Panel" parent="."]
+margin_left = 342.923
+margin_top = 54.3009
+margin_right = 661.923
+margin_bottom = 534.301
+custom_styles/panel = SubResource( 1 )
+
+[node name="Icon" type="TextureRect" parent="."]
+margin_left = 369.0
+margin_top = 79.0
+margin_right = 635.0
+margin_bottom = 314.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Instability" type="Label" parent="."]
+margin_left = 367.346
+margin_top = 396.784
+margin_right = 439.346
+margin_bottom = 410.784
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Instability: "
+
+[node name="Score" type="Label" parent="."]
+margin_left = 542.039
+margin_top = 396.784
+margin_right = 585.039
+margin_bottom = 410.784
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Score: "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Element" type="TextureRect" parent="."]
+margin_left = 609.0
+margin_top = 64.0
+margin_right = 649.0
+margin_bottom = 104.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Submit" type="Button" parent="."]
+margin_left = 551.594
+margin_top = 501.135
+margin_right = 650.594
+margin_bottom = 521.135
+text = "Add to Potion"
