@@ -16,7 +16,7 @@ script = ExtResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-ingredient_name = "fire_ant"
+ingredient_name = "bone"
 
 [node name="Background" type="Panel" parent="."]
 margin_left = 344.227
@@ -56,10 +56,10 @@ __meta__ = {
 }
 
 [node name="Element" type="TextureRect" parent="."]
-margin_left = 608.0
-margin_top = 88.0
-margin_right = 648.0
-margin_bottom = 128.0
+margin_left = 571.189
+margin_top = 316.418
+margin_right = 611.189
+margin_bottom = 356.418
 hint_tooltip = "earth"
 texture = ExtResource( 1 )
 stretch_mode = 1
@@ -78,10 +78,10 @@ __meta__ = {
 }
 
 [node name="Name" type="RichTextLabel" parent="."]
-margin_left = 405.0
-margin_top = 324.0
-margin_right = 611.0
-margin_bottom = 371.0
+margin_left = 359.694
+margin_top = 315.505
+margin_right = 565.694
+margin_bottom = 362.505
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 text = "Fire Ant"
 __meta__ = {
