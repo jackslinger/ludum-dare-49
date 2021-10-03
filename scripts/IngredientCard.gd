@@ -3,6 +3,8 @@ extends Control
 
 export(String) var ingredient_name
 
+signal add_ingredient(ingredient_name)
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	var name = $VBoxContainer/HBoxContainer/Name
@@ -17,3 +19,7 @@ func _ready():
 	icon.texture = load("res://assets/ingredients/" + ingredient_name + ".png")
 	instability.text = "Instability: " + str(ingredient["instability"])
 	score.text = "Score: " + str(ingredient["score"])
+
+
+func _on_Submit_button_down():
+	emit_signal("add_ingredient", ingredient_name)

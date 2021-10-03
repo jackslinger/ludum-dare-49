@@ -117,3 +117,5 @@ text = "Score: 10"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[connection signal="button_down" from="Submit" to="." method="_on_Submit_button_down"]
