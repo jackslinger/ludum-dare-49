@@ -3,7 +3,7 @@ class_name ScoreResource
 
 signal score_changed(new_value)
 
-var value
+var value = 0
 
 func reset():
 	value = 0
