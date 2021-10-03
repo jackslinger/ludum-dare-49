@@ -1,7 +1,9 @@
-extends Node2D
+extends Control
 
 var failures
 var max_failures = 3
+
+signal loose
 
 func _ready():
 	failures = 0
@@ -13,7 +15,7 @@ func mark_failure():
 		update_icons()
 	
 	if failures >= max_failures:
-		get_tree().change_scene("res://scenes/GameOver.tscn")
+		emit_signal("loose")
 
 func update_icons():
 	if failures >= 1:

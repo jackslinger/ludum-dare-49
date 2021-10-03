@@ -1,4 +1,4 @@
-extends Node2D
+extends Control
 
 signal boil_over
 signal animation_finished
@@ -26,7 +26,7 @@ func change_stability_threshold(delta):
 		stability_threshold = 100
 	yield(animate_threshold(), "completed")
 
-func animate_value(target, tween_duration=1.0):
+func animate_value(target, tween_duration=0.5):
 	$Bubbles/Tween.interpolate_property($Bubbles, 'value', $Bubbles.value, target, tween_duration, Tween.TRANS_CUBIC, Tween.EASE_OUT)
 	$Bubbles/Tween.start()
 	yield($Bubbles/Tween, "tween_completed")

@@ -28,26 +28,23 @@ __meta__ = {
 }
 
 [node name="Cauldron" type="TextureRect" parent="."]
-margin_left = 418.85
-margin_top = 48.3879
-margin_right = 1796.85
-margin_bottom = 1853.39
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -108.0
+margin_top = -350.0
+margin_right = 1270.0
+margin_bottom = 1455.0
 rect_scale = Vector2( 0.15, 0.15 )
 texture = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="StabilityBar" parent="." instance=ExtResource( 3 )]
-position = Vector2( 898.801, 46.2882 )
-scale = Vector2( 0.5, 0.5 )
-
-[node name="Failures" parent="." instance=ExtResource( 4 )]
-position = Vector2( 874.513, 369.876 )
-scale = Vector2( 0.5, 0.5 )
-
 [node name="Score" parent="." instance=ExtResource( 5 )]
-margin_right = 7.62939e-06
+margin_left = 20.0
+margin_top = 20.0
 margin_bottom = -1.52588e-05
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
@@ -125,25 +122,58 @@ margin_bottom = 290.0
 size_flags_horizontal = 3
 ingredient_name = "tooth"
 
+
 [node name="Bubbling" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 9 )
 
 [node name="Plop" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 7 )
 
+[node name="StabilityBar" parent="." instance=ExtResource( 3 )]
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -100.0
+margin_top = 15.0
+margin_right = 50.0
+margin_bottom = -285.0
+rect_scale = Vector2( 0.5, 0.5 )
+
+[node name="Failures" parent="." instance=ExtResource( 4 )]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -125.0
+margin_top = 330.0
+rect_scale = Vector2( 0.5, 0.5 )
+
+[node name="Finish" type="Button" parent="."]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -120.0
+margin_top = 380.0
+margin_right = -5.0
+margin_bottom = 20.0
+text = "Finish Potion"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+
 [connection signal="disable_buttons" from="." to="MarginContainer/HBoxContainer/Card1" method="disable_button"]
 [connection signal="disable_buttons" from="." to="MarginContainer/HBoxContainer/Card2" method="disable_button"]
 [connection signal="disable_buttons" from="." to="MarginContainer/HBoxContainer/Card3" method="disable_button"]
 [connection signal="disable_buttons" from="." to="MarginContainer/HBoxContainer/Card4" method="disable_button"]
 [connection signal="disable_buttons" from="." to="MarginContainer/HBoxContainer/Card5" method="disable_button"]
+[connection signal="add_ingredient" from="MarginContainer/HBoxContainer/Card1" to="." method="_on_add_ingredient"]
+[connection signal="add_ingredient" from="MarginContainer/HBoxContainer/Card2" to="." method="_on_add_ingredient"]
+[connection signal="add_ingredient" from="MarginContainer/HBoxContainer/Card3" to="." method="_on_add_ingredient"]
+[connection signal="add_ingredient" from="MarginContainer/HBoxContainer/Card4" to="." method="_on_add_ingredient"]
+[connection signal="add_ingredient" from="MarginContainer/HBoxContainer/Card5" to="." method="_on_add_ingredient"]
 [connection signal="animation_finished" from="StabilityBar" to="MarginContainer/HBoxContainer/Card1" method="enable_button"]
 [connection signal="animation_finished" from="StabilityBar" to="MarginContainer/HBoxContainer/Card2" method="enable_button"]
 [connection signal="animation_finished" from="StabilityBar" to="MarginContainer/HBoxContainer/Card3" method="enable_button"]
 [connection signal="animation_finished" from="StabilityBar" to="MarginContainer/HBoxContainer/Card4" method="enable_button"]
 [connection signal="animation_finished" from="StabilityBar" to="MarginContainer/HBoxContainer/Card5" method="enable_button"]
 [connection signal="boil_over" from="StabilityBar" to="Failures" method="mark_failure"]
-[connection signal="add_ingredient" from="MarginContainer/HBoxContainer/Card1" to="." method="_on_add_ingredient"]
-[connection signal="add_ingredient" from="MarginContainer/HBoxContainer/Card2" to="." method="_on_add_ingredient"]
-[connection signal="add_ingredient" from="MarginContainer/HBoxContainer/Card3" to="." method="_on_add_ingredient"]
-[connection signal="add_ingredient" from="MarginContainer/HBoxContainer/Card4" to="." method="_on_add_ingredient"]
-[connection signal="add_ingredient" from="MarginContainer/HBoxContainer/Card5" to="." method="_on_add_ingredient"]
+[connection signal="loose" from="Failures" to="." method="_on_Failures_loose"]
+[connection signal="pressed" from="Finish" to="." method="_on_Finish_pressed"]

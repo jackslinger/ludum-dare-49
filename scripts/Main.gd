@@ -14,3 +14,12 @@ func _on_add_ingredient(ingredient_name):
 	yield($StabilityBar.change_stability_threshold(-ingredient["instability"]), "completed")
 	yield($StabilityBar.roll_stability(), "completed")
 	$Bubbling.stop()
+
+
+func _on_Finish_pressed():
+	get_tree().change_scene("res://scenes/GameOver.tscn")
+
+func _on_Failures_loose():
+	$Score.reset()
+	get_tree().change_scene("res://scenes/GameOver.tscn")
+
