@@ -18,6 +18,11 @@ config/icon="res://icon.png"
 
 GlobalIngredients="*res://scripts/GlobalIngredients.gd"
 
+[display]
+
+window/size/width=1536
+window/size/height=900
+
 [importer_defaults]
 
 texture={

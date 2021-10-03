@@ -1,18 +1,21 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://assets/simple_elements/fire.png" type="Texture" id=1]
-[ext_resource path="res://assets/ingredients/fire_ant.png" type="Texture" id=2]
+[ext_resource path="res://assets/ingredients/bone.png" type="Texture" id=1]
+[ext_resource path="res://assets/simple_elements/earth.png" type="Texture" id=2]
 [ext_resource path="res://scripts/IngredientCard.gd" type="Script" id=3]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.92549, 0.921569, 0.760784, 1 )
 
 [node name="IngredientCard" type="Control"]
-anchor_right = 1.0
-anchor_bottom = 1.0
-margin_top = -1.0
-margin_right = -814.0
-margin_bottom = -318.0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -125.0
+margin_top = -150.0
+margin_right = 75.0
+margin_bottom = 150.0
 script = ExtResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -20,71 +23,97 @@ __meta__ = {
 ingredient_name = "bone"
 
 [node name="Background" type="Panel" parent="."]
-margin_left = 3.0
-margin_top = 5.0
-margin_right = 203.0
-margin_bottom = 278.0
+anchor_right = 1.0
+anchor_bottom = 1.0
 custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Icon" type="TextureRect" parent="."]
-margin_left = 15.5274
-margin_top = 14.7818
-margin_right = 132.527
-margin_bottom = 120.782
-texture = ExtResource( 2 )
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -58.4998
+margin_right = 58.4998
+margin_bottom = 106.0
+texture = ExtResource( 1 )
 expand = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Instability" type="Label" parent="."]
-margin_left = 12.2662
-margin_top = 186.881
-margin_right = 100.266
-margin_bottom = 200.881
-custom_colors/font_color = Color( 0, 0, 0, 1 )
-text = "Instability: 10"
-
-[node name="Score" type="Label" parent="."]
-margin_left = 119.109
-margin_top = 187.344
-margin_right = 178.109
-margin_bottom = 201.344
-custom_colors/font_color = Color( 0, 0, 0, 1 )
-text = "Score: 10"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Element" type="TextureRect" parent="."]
-margin_left = 89.6015
-margin_top = 122.551
-margin_right = 129.601
-margin_bottom = 162.551
-hint_tooltip = "earth"
-texture = ExtResource( 1 )
-stretch_mode = 1
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
 [node name="Submit" type="Button" parent="."]
-margin_left = 40.1542
-margin_top = 227.011
-margin_right = 139.154
-margin_bottom = 247.011
+anchor_left = 0.5
+anchor_top = 0.9
+anchor_right = 0.5
+anchor_bottom = 0.9
+margin_left = -49.5
+margin_top = -20.0
+margin_right = 49.5
 text = "Add to Potion"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Name" type="RichTextLabel" parent="."]
-margin_left = 13.5232
-margin_top = 135.893
-margin_right = 219.523
-margin_bottom = 182.893
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_left = 0.2
+anchor_top = 0.4
+anchor_right = 0.8
+anchor_bottom = 0.7
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+margin_right = 151.0
+margin_bottom = 43.0
+size_flags_vertical = 3
+
+[node name="Name" type="RichTextLabel" parent="VBoxContainer/HBoxContainer"]
+margin_right = 115.0
+margin_bottom = 43.0
+size_flags_horizontal = 3
 custom_colors/default_color = Color( 0, 0, 0, 1 )
-text = "Fire Ant"
+text = "Bone"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Element" type="TextureRect" parent="VBoxContainer/HBoxContainer"]
+margin_left = 119.0
+margin_right = 151.0
+margin_bottom = 43.0
+hint_tooltip = "earth"
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer"]
+margin_top = 47.0
+margin_right = 151.0
+margin_bottom = 90.0
+size_flags_vertical = 3
+
+[node name="Instability" type="Label" parent="VBoxContainer/HBoxContainer2"]
+margin_top = 14.0
+margin_right = 88.0
+margin_bottom = 28.0
+size_flags_horizontal = 3
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Instability: 10"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Score" type="Label" parent="VBoxContainer/HBoxContainer2"]
+margin_left = 92.0
+margin_top = 14.0
+margin_right = 151.0
+margin_bottom = 28.0
+size_flags_horizontal = 3
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Score: 10"
 __meta__ = {
 "_edit_use_anchors_": false
 }
