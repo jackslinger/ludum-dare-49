@@ -20,7 +20,6 @@ func _ready():
 	score = $VBoxContainer/HBoxContainer2/Score
 	set_ingredient_info()
 	
-
 func set_ingredient_info():
 	var ingredient = GlobalIngredients.get_ingredient(ingredient_name)
 	name_label.text = ingredient["display_name"]
@@ -32,7 +31,12 @@ func set_ingredient_info():
 func _on_Submit_button_down():
 	emit_signal("add_ingredient", ingredient_name)
 
-
 func _on_IngredientCard_add_ingredient(new_ingredient_name):
 	ingredient_name = GlobalIngredients.get_random_ingredient()
 	set_ingredient_info()
+
+func enable_button():
+	$Submit.disabled = false
+
+func disable_button():
+	$Submit.disabled = true
