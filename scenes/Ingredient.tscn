@@ -65,12 +65,12 @@ __meta__ = {
 }
 
 [node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
-margin_right = 151.0
+margin_right = 135.0
 margin_bottom = 43.0
 size_flags_vertical = 3
 
 [node name="Name" type="RichTextLabel" parent="VBoxContainer/HBoxContainer"]
-margin_right = 115.0
+margin_right = 99.0
 margin_bottom = 43.0
 size_flags_horizontal = 3
 custom_colors/default_color = Color( 0, 0, 0, 1 )
@@ -80,8 +80,8 @@ __meta__ = {
 }
 
 [node name="Element" type="TextureRect" parent="VBoxContainer/HBoxContainer"]
-margin_left = 119.0
-margin_right = 151.0
+margin_left = 103.0
+margin_right = 135.0
 margin_bottom = 43.0
 hint_tooltip = "earth"
 texture = ExtResource( 2 )
@@ -91,29 +91,29 @@ __meta__ = {
 
 [node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer"]
 margin_top = 47.0
-margin_right = 151.0
+margin_right = 135.0
 margin_bottom = 90.0
 size_flags_vertical = 3
 
 [node name="Instability" type="Label" parent="VBoxContainer/HBoxContainer2"]
 margin_top = 14.0
-margin_right = 88.0
+margin_right = 80.0
 margin_bottom = 28.0
 size_flags_horizontal = 3
 custom_colors/font_color = Color( 0, 0, 0, 1 )
-text = "Instability: 10"
+text = "Instability: 2"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Score" type="Label" parent="VBoxContainer/HBoxContainer2"]
-margin_left = 92.0
+margin_left = 84.0
 margin_top = 14.0
-margin_right = 151.0
+margin_right = 135.0
 margin_bottom = 28.0
 size_flags_horizontal = 3
 custom_colors/font_color = Color( 0, 0, 0, 1 )
-text = "Score: 10"
+text = "Score: 5"
 __meta__ = {
 "_edit_use_anchors_": false
 }

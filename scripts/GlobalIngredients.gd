@@ -1,6 +1,7 @@
 tool
 extends Node
 
+var rng
 var ingredients = [
 	{
 		"display_name": "Fire Scorpian",
@@ -123,7 +124,14 @@ var ingredients = [
 	},
 ]
 
+func _ready():
+	rng = RandomNumberGenerator.new()
+
 func get_ingredient(name):
 	for ingredient in ingredients:
 		if ingredient["name"] == name:
 			return ingredient
+
+func get_random_ingredient():
+	var rand = rng.randi_range(0, ingredients.size())
+	return ingredients[rand]["name"]

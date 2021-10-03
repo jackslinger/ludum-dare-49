@@ -1,6 +1,7 @@
 extends Control
 
 func _ready():
+	#connect("add_ingredient", self, "_on_add_ingredient")
 	pass # Replace with function body.
 
 func _on_add_ingredient(ingredient_name):
