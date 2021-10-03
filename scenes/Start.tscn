@@ -56,10 +56,62 @@ custom_fonts/font = SubResource( 2 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "By Jack and Janey Slinger"
 
-[node name="PlayGame" type="Button" parent="VBoxContainer"]
+[node name="HowToPlay" type="Button" parent="VBoxContainer"]
 margin_top = 103.0
 margin_right = 498.0
 margin_bottom = 123.0
+text = "How To Play"
+
+[node name="PlayGame" type="Button" parent="VBoxContainer"]
+margin_top = 127.0
+margin_right = 498.0
+margin_bottom = 147.0
 text = "Play Game"
 
+[node name="Credits" type="Button" parent="VBoxContainer"]
+margin_top = 151.0
+margin_right = 498.0
+margin_bottom = 171.0
+text = "Credits"
+
+[node name="HowToPlayDialog" type="AcceptDialog" parent="."]
+visible = true
+margin_left = 398.681
+margin_top = 308.75
+margin_right = 1140.68
+margin_bottom = 569.75
+window_title = "How To Play"
+resizable = true
+dialog_text = "Welcome to Witches Cauldron! 
+How to Play:
+The aim of the game is to create a potion with the highest score without the potion boiling over 3 times. 
+- Choose one of the 5 ingredient cards to add to the potion
+- Each card has a score value which will be added to your score
+- Each card has an instability value that adds to the risk of the potion boiling over
+-  Your stability bar starts at 100. Each ingredient you add will decrease this by the instability score on the card
+- When an ingredient is added a random number between 1 and 100 will decide the instability of the potion. If this number is less than the current stability you are safe and the points get added to your score. If the number is higher than the stability line the potion boils over and one of the markers will turn red. 
+- If all 3 markers turn red you loes the game with 0 points
+- Once you have the required ingredients of certain elements (represented on the card) and you are happy with your score you can choose to finish your potion. This will give you a final score. "
+dialog_autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CreditDialog" type="AcceptDialog" parent="."]
+margin_left = 455.0
+margin_top = 282.0
+margin_right = 1031.0
+margin_bottom = 528.0
+window_title = "Credits"
+resizable = true
+dialog_text = "Graphical assets from:
+- Admurin's Skill Icons by admurin on Itch.io
+- Admurin's Miscellaneous Items by admurin on Itch.io
+- Admurin's Insect Items by admurin on Itch.io
+- The Midnight Background by thewisehedgehog on Itch.io
+Audio from:
+- Daily Life Sound Effects Asset Pack by mayragandra on Itch.io"
+
+[connection signal="pressed" from="VBoxContainer/HowToPlay" to="." method="_on_HowToPlay_pressed"]
 [connection signal="pressed" from="VBoxContainer/PlayGame" to="." method="_on_PlayGame_pressed"]
+[connection signal="pressed" from="VBoxContainer/Credits" to="." method="_on_Credits_pressed"]
