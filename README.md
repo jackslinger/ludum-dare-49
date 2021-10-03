@@ -22,3 +22,6 @@ Texture packs used:
 - [Admurin's Miscellaneous Items](https://admurin.itch.io/admurins-miscellaneous-items)
 - [Admurin's Insect Items](https://admurin.itch.io/admurins-insects)
 - [The Midnight Background](https://thewisehedgehog.itch.io/tmb)
+
+Audio from:
+- [Daily Life Sound Effects Asset Pack](https://mayragandra.itch.io/homesoundeffects)
