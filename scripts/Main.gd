@@ -3,6 +3,9 @@ signal disable_buttons
 
 func _ready():
 	$Finish.disabled = true
+	for card in $MarginContainer/HBoxContainer.get_children():
+		var ingredient_name = GlobalIngredients.get_random_ingredient()
+		card._on_IngredientCard_add_ingredient(ingredient_name)
 
 func _on_add_ingredient(ingredient_name):
 	emit_signal("disable_buttons")
