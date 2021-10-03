@@ -1,7 +1,7 @@
 # Witches Cauldron
 
 Welcome to Witches Cauldron! A game created for ludum dare 49. 
-![Demo Image](assets\demo.png)
+![Demo Image](assets/demo.png)
 
 ## How to Play:
 You can play [in your browser](https://jackslinger.github.io/ludum-dare-49/).
