@@ -123,6 +123,16 @@ margin_bottom = 290.0
 size_flags_horizontal = 3
 ingredient_name = "tooth"
 
+[connection signal="disable_buttons" from="." to="MarginContainer/HBoxContainer/Card1" method="disable_button"]
+[connection signal="disable_buttons" from="." to="MarginContainer/HBoxContainer/Card2" method="disable_button"]
+[connection signal="disable_buttons" from="." to="MarginContainer/HBoxContainer/Card3" method="disable_button"]
+[connection signal="disable_buttons" from="." to="MarginContainer/HBoxContainer/Card4" method="disable_button"]
+[connection signal="disable_buttons" from="." to="MarginContainer/HBoxContainer/Card5" method="disable_button"]
+[connection signal="animation_finished" from="StabilityBar" to="MarginContainer/HBoxContainer/Card1" method="enable_button"]
+[connection signal="animation_finished" from="StabilityBar" to="MarginContainer/HBoxContainer/Card2" method="enable_button"]
+[connection signal="animation_finished" from="StabilityBar" to="MarginContainer/HBoxContainer/Card3" method="enable_button"]
+[connection signal="animation_finished" from="StabilityBar" to="MarginContainer/HBoxContainer/Card4" method="enable_button"]
+[connection signal="animation_finished" from="StabilityBar" to="MarginContainer/HBoxContainer/Card5" method="enable_button"]
 [connection signal="boil_over" from="StabilityBar" to="Failures" method="mark_failure"]
 [connection signal="add_ingredient" from="MarginContainer/HBoxContainer/Card1" to="." method="_on_add_ingredient"]
 [connection signal="add_ingredient" from="MarginContainer/HBoxContainer/Card2" to="." method="_on_add_ingredient"]
