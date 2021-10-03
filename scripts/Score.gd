@@ -1,14 +1,14 @@
 extends Control
 
-var score
+export (Resource) var score
 
 func _ready():
-	score = 0
-	$RichTextLabel.text = "Score: %s" % score
+	score.connect("score_changed", self, "_on_score_changed")
+	score.reset()
+	$RichTextLabel.text = "Score: %s" % score.value
 
 func add_score(delta):
-	update_score(score + delta)
+	score.add_score(delta)
 
-func update_score(new_score):
-	score = new_score
-	$RichTextLabel.text = "Score: %s" % score
+func _on_score_changed(value):
+	$RichTextLabel.text = "Score: %s" % value
