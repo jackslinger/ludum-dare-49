@@ -2,8 +2,7 @@ extends Control
 signal disable_buttons
 
 func _ready():
-	#connect("add_ingredient", self, "_on_add_ingredient")
-	pass # Replace with function body.
+	$Finish.disabled = true
 
 func _on_add_ingredient(ingredient_name):
 	emit_signal("disable_buttons")
@@ -18,3 +17,7 @@ func _on_Finish_pressed():
 func _on_Failures_loose():
 	$Score.reset()
 	get_tree().change_scene("res://scenes/GameOver.tscn")
+
+
+func _on_Elements_requirements_met():
+	$Finish.disabled = false
