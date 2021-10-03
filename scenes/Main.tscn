@@ -122,7 +122,6 @@ margin_bottom = 290.0
 size_flags_horizontal = 3
 ingredient_name = "tooth"
 
-
 [node name="Bubbling" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 9 )
 
@@ -157,7 +156,6 @@ text = "Finish Potion"
 __meta__ = {
 "_edit_use_anchors_": false
 }
-
 
 [connection signal="disable_buttons" from="." to="MarginContainer/HBoxContainer/Card1" method="disable_button"]
 [connection signal="disable_buttons" from="." to="MarginContainer/HBoxContainer/Card2" method="disable_button"]

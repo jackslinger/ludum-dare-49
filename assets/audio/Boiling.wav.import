@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Boiling.wav-e584c12fb4977f979e866c4458725ab4.sample"
+
+[deps]
+
+source_file="res://assets/audio/Boiling.wav"
+dest_files=[ "res://.import/Boiling.wav-e584c12fb4977f979e866c4458725ab4.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

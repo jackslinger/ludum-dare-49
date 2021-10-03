@@ -2,7 +2,6 @@ extends Control
 signal disable_buttons
 
 func _ready():
-	
 	pass # Replace with function body.
 
 func _on_add_ingredient(ingredient_name):
