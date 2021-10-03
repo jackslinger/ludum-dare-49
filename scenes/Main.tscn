@@ -6,6 +6,7 @@
 [ext_resource path="res://scenes/Failures.tscn" type="PackedScene" id=4]
 [ext_resource path="res://scenes/Score.tscn" type="PackedScene" id=5]
 [ext_resource path="res://scripts/Main.gd" type="Script" id=6]
+[ext_resource path="res://scenes/Elements.tscn" type="PackedScene" id=7]
 [ext_resource path="res://assets/audio/Sink water drop.wav" type="AudioStream" id=7]
 [ext_resource path="res://scenes/Ingredient.tscn" type="PackedScene" id=8]
 [ext_resource path="res://assets/audio/Boiling.wav" type="AudioStream" id=9]
@@ -41,6 +42,16 @@ texture = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Elements" parent="." instance=ExtResource( 7 )]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -200.0
+margin_top = -20.0
+margin_right = 200.0
+margin_bottom = 20.0
 
 [node name="Score" parent="." instance=ExtResource( 5 )]
 margin_left = 20.0
@@ -162,11 +173,17 @@ __meta__ = {
 [connection signal="disable_buttons" from="." to="MarginContainer/HBoxContainer/Card3" method="disable_button"]
 [connection signal="disable_buttons" from="." to="MarginContainer/HBoxContainer/Card4" method="disable_button"]
 [connection signal="disable_buttons" from="." to="MarginContainer/HBoxContainer/Card5" method="disable_button"]
+[connection signal="requirements_met" from="Elements" to="." method="_on_Elements_requirements_met"]
 [connection signal="add_ingredient" from="MarginContainer/HBoxContainer/Card1" to="." method="_on_add_ingredient"]
+[connection signal="add_ingredient" from="MarginContainer/HBoxContainer/Card1" to="Elements" method="_on_add_ingredient"]
 [connection signal="add_ingredient" from="MarginContainer/HBoxContainer/Card2" to="." method="_on_add_ingredient"]
+[connection signal="add_ingredient" from="MarginContainer/HBoxContainer/Card2" to="Elements" method="_on_add_ingredient"]
 [connection signal="add_ingredient" from="MarginContainer/HBoxContainer/Card3" to="." method="_on_add_ingredient"]
+[connection signal="add_ingredient" from="MarginContainer/HBoxContainer/Card3" to="Elements" method="_on_add_ingredient"]
 [connection signal="add_ingredient" from="MarginContainer/HBoxContainer/Card4" to="." method="_on_add_ingredient"]
+[connection signal="add_ingredient" from="MarginContainer/HBoxContainer/Card4" to="Elements" method="_on_add_ingredient"]
 [connection signal="add_ingredient" from="MarginContainer/HBoxContainer/Card5" to="." method="_on_add_ingredient"]
+[connection signal="add_ingredient" from="MarginContainer/HBoxContainer/Card5" to="Elements" method="_on_add_ingredient"]
 [connection signal="animation_finished" from="StabilityBar" to="MarginContainer/HBoxContainer/Card1" method="enable_button"]
 [connection signal="animation_finished" from="StabilityBar" to="MarginContainer/HBoxContainer/Card2" method="enable_button"]
 [connection signal="animation_finished" from="StabilityBar" to="MarginContainer/HBoxContainer/Card3" method="enable_button"]
