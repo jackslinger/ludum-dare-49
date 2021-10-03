@@ -1,4 +1,4 @@
-extends Node2D
+extends Control
 
 signal boil_over
 signal animation_finished
