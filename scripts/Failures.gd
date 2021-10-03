@@ -11,6 +11,9 @@ func mark_failure():
 	if failures < max_failures:
 		failures += 1
 		update_icons()
+	
+	if failures >= max_failures:
+		get_tree().change_scene("res://scenes/GameOver.tscn")
 
 func update_icons():
 	if failures >= 1:
